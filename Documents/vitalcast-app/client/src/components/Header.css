@@ -1,0 +1,22 @@
+/* src/components/Header.css */
+
+.app-header {
+    background-color: #262525; /* Set your desired background color */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Make the header span the full width */
+  }
+  
+  .app-logo {
+    width: 100px; /* Set the desired width for your logo */
+    height: auto;
+    margin-right: 10px; /* Add margin for spacing if needed */
+  }
+  
+  .app-title {
+    color: white; /* Set the text color */
+    font-size: 24px; /* Set the font size */
+  }
+  

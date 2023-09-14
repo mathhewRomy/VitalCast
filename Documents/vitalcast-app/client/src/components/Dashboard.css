@@ -1,0 +1,45 @@
+/* src/components/Dashboard.css */
+
+/* src/components/Dashboard.css */
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid */
+    grid-gap: 20px;
+    padding: 20px; /* Add padding to separate from the header */
+    box-sizing: border-box; /* Include padding in width calculations */
+    justify-content: center;
+    align-content: center;
+    height: 100%; /* Make the Dashboard component fill the viewport height */
+  }
+  
+  /* Style for the vital sign cards */
+  .vital-sign-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .vital-sign-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+  }
+  
+  /* Additional styles for the vital sign card content, if needed */
+  .vital-sign-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .vital-sign-card p {
+    font-size: 18px;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }

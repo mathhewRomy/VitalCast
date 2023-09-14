@@ -1,0 +1,12 @@
+/* src/styles.css (or your preferred CSS file) */
+
+/* Remove underlines from all anchor (a) elements */
+a {
+    text-decoration: none;
+  }
+  
+  /* If you want to style the links when hovered over, you can add a hover effect */
+  a:hover {
+    /* Add your hover styles here, for example, changing text color */
+    color: #007bff; /* Change to your preferred hover color */
+  }

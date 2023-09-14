@@ -1,0 +1,25 @@
+/* src/components/VitalSignCard.css */
+
+.vital-sign-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heart-rate-value {
+    font-size: 24px;
+    animation: pulse 1s infinite alternate; /* Apply the pulsing animation */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1); /* Increase the scale for the pulsing effect */
+    }
+  }
+  
